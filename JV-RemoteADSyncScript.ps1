@@ -55,7 +55,7 @@ try {
     }
 
     # Print results
-    Write-Host "Synchronisatieresultaten ontvangen van de remote server:`n" -ForegroundColor Cyan
+    Write-Host "Synchronization results from remote server:`n" -ForegroundColor Cyan
     $ADSyncResults | Format-List *
 
     # Checking the status
